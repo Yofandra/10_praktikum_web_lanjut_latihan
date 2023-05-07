@@ -1,6 +1,8 @@
 @extends('layouts.app')
 @section('content')
 
+{{-- latihan2 --}}
+
 <div class="container">
     <form action="/articles/{{$article->id}}" method="post" enctype="multipart/form-data">
     @method('PUT')
