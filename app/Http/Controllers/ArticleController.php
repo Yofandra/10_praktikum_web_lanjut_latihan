@@ -112,5 +112,6 @@ class ArticleController extends Controller
         $articles = Article::all();
         $pdf = PDF::loadview('articles.articles_pdf', ['articles'=>$articles]);
         return $pdf->stream();
+        // praktikum3
     }
 }

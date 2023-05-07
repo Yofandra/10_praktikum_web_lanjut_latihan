@@ -19,4 +19,5 @@ Route::get('/', function () {
 });
 
 Route::resource('articles', ArticleController::class);
+// praktikum3
 Route::get('/article/cetak_pdf', [ArticleController::class, 'cetak_pdf']);
